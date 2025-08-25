@@ -1,0 +1,29 @@
+# ESP-IDF build artifacts
+/build/
+sdkconfig
+sdkconfig.old
+*.bin
+*.elf
+*.map
+*.dmp
+*.log
+
+# ESP-IDF Python environment
+.env/
+venv/
+__pycache__/
+*.pyc
+
+# ESP-IDF CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake 
+ 
+#managed components 
+managed_components/ 
+
+# Visual Studio Code settings
+.vscode/ 
+
+.clangd
+dependencies.lock 
